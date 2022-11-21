@@ -1,28 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-.cabecalho {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(27, 26, 26, 0.877);
-    align-items: center;
-}
-
-.cabecalho img {
-    width: 150px;
-}
-
-.cabecalho nav a {
-    text-decoration: none;
+    background-color: #F0FFFF;
     color: gray;
-    font-size: 17px;
-    margin: 5px;
-    transition: 0.3s;
 }
 
-.cabecalho nav a:hover {
-    font-size: 22px;
-    color: white;
-}
