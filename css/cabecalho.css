@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.cabecalho nav a:first-child {
+    color: white;
+}
+
 .cabecalho img {
     width: 150px;
 }
