@@ -7,7 +7,6 @@
 .card-conteudo {
     background-color: rgba(27, 26, 26, 0.877);
     margin: 25px;
-    height: 45vh;
     border-radius: 10px;
     color: white;
 }
@@ -41,3 +40,9 @@
 .card-conteudo a:hover {
     font-size: 23px;
 }
+
+@media screen and (max-width: 900px) {
+    .card {
+        flex-wrap: wrap;
+    }
+} 

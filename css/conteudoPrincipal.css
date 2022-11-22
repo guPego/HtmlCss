@@ -30,3 +30,14 @@
     margin-top: 0;
     font-size: 1.3em;
 }
+
+@media screen and (max-width: 800px){
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-principal img {
+        width: auto;
+    }
+}
